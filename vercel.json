@@ -1,7 +1,11 @@
 {
   "routes": [
     {
-      "src": "/[^.]+",
+      "src": "/auth/login",
+      "dest": "/"
+    },
+    {
+      "src": "/home",
       "dest": "/"
     }
   ]
