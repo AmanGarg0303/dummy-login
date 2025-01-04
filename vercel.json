@@ -1,12 +1,1 @@
-{
-  "routes": [
-    {
-      "src": "/auth/login",
-      "dest": "/"
-    },
-    {
-      "src": "/home",
-      "dest": "/"
-    }
-  ]
-}
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
